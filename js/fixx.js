@@ -20,63 +20,7 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		]
 	});
     chart.render();
-    var chart3 = new CanvasJS.Chart("chart3", {
-	data: [{        
-		type: "column",
-		dataPoints: [      
-			{ y: 10, label: "Category 1", color: "#4e73df"},
-			{ y: 11,  label: "Category 3", color: "#4e73df"},
-			{ y: 12,  label: "Category 4", color:"#4e73df" }
-		]
-	}]
-});
-    chart3.render();
-    var chart4 = new CanvasJS.Chart("chart4", {
-	data: [{        
-		type: "column",  
-		dataPoints: [      
-			{ y: 11, label: "Category 1", color: "#4e73df"},
-			{ y: 12,  label: "Category 3", color: "#4e73df"},
-			{ y: 10,  label: "Category 4", color:"#4e73df" }
-            ]
-	}]
-});
-    chart4.render();
-    var chart5 = new CanvasJS.Chart("chart5", {
-	data: [{        
-		type: "column",  
-		dataPoints: [      
-			{ y: 12, label: "Category 1", color: "#4e73df"},
-			{ y: 11,  label: "Category 3", color: "#4e73df"},
-			{ y: 10,  label: "Category 4", color:"#4e73df" }
-            ]
-	}]
-});
-    chart5.render();
     var chart2 = new CanvasJS.Chart("chart2", {
-	data: [{        
-		type: "column",  
-		dataPoints: [      
-			{ y: 11, label: "Category 1", color: "#4e73df"},
-			{ y: 12,  label: "Category 3", color: "#4e73df"},
-			{ y: 10,  label: "Category 4", color:"#4e73df" }
-		]
-	}]
-});
-    chart5.render();
-    var chartt = new CanvasJS.Chart("chartt", {
-	data: [{        
-		type: "column",  
-		dataPoints: [      
-			{ y: 10, label: "Category 1", color: "#4e73df"},
-			{ y: 12,  label: "Category 3", color: "#4e73df"},
-			{ y: 11,  label: "Category 4", color:"#4e73df" }
-		]
-	}]
-});
-    chartt.render();
-});
-   var thischart = new CanvasJS.Chart("thischart", {
 	data: [{        
 		type: "line",  
 		dataPoints: [      
@@ -88,4 +32,109 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		]
 	}]
 });
-    thischart.render();
+    chart2.render();
+    var chart3 = new CanvasJS.Chart("chart3", {
+	data: [{        
+		type: "column",
+		dataPoints: [      
+			{ y: 0.1186, label: "01/08/2021", color: "#4e73df"},
+			{ y: 0.1086,  label: "01/15/2021", color: "#4e73df"},
+			{ y: 0.2344,  label: "01/22/2021", color:"#4e73df" },
+			{ y: 0.1810,  label: "01/29/2021", color:"#4e73df" },
+			{ y: 0.1365,  label: "02/05/2021", color:"#4e73df" }
+		]
+	}]
+});
+    chart3.render();
+    var chart4 = new CanvasJS.Chart("chart4", {
+	data: [{        
+		type: "column",  
+		dataPoints: [      
+			{ y: 0.0625, label: "01/08/2021", color: "#4e73df"},
+			{ y: 0.1364,  label: "01/15/2021", color: "#4e73df"},
+			{ y: 0.0537,  label: "01/22/2021", color:"#4e73df" },
+			{ y: 0.1247,  label: "01/29/2021", color:"#4e73df" },
+			{ y: 0.0558,  label: "02/05/2021", color:"#4e73df" }
+            ]
+	}]
+});
+    chart4.render();
+    var chart5 = new CanvasJS.Chart("chart5", {
+	data: [{        
+		type: "column",  
+		dataPoints: [      
+			{ y: 0.1341 , label: "01/08/2021", color: "#4e73df"},
+			{ y: 0.1012,  label: "01/15/2021", color: "#4e73df"},
+			{ y: 0.1042,  label: "01/22/2021", color:"#4e73df" },
+			{ y: 0.1557,  label: "01/29/2021", color:"#4e73df" },
+			{ y: 0.0777,  label: "02/05/2021", color:"#4e73df" }
+            ]
+	}]
+});
+    chart5.render();
+    var chartt = new CanvasJS.Chart("chartt", {
+	data: [{        
+		type: "column",  
+		dataPoints: [      
+			{ y: 0.017 , label: "01/08/2021", color: "#4e73df"},
+			{ y: 0.025,  label: "01/15/2021", color: "#4e73df"},
+			{ y: 0.006,  label: "01/22/2021", color:"#4e73df" },
+			{ y: 0.008,  label: "01/29/2021", color:"#4e73df" },
+			{ y: 0.122,  label: "02/05/2021", color:"#4e73df" }
+		]
+	}]
+});
+    chartt.render();
+    var team = new CanvasJS.Chart("team", {
+	data: [{        
+		type: "column",  
+		dataPoints: [      
+			{ y: 0.1304 , label: "01/08/2021", color: "#4e73df"},
+			{ y: 0.0059,  label: "01/15/2021", color: "#4e73df"},
+			{ y: 0.0521,  label: "01/22/2021", color:"#4e73df" },
+			{ y: 0.1855,  label: "01/29/2021", color:"#4e73df" },
+			{ y: 0.0083,  label: "02/05/2021", color:"#4e73df" }
+		]
+	}]
+});
+    team.render();
+    var team2 = new CanvasJS.Chart("team2", {
+	data: [{        
+		type: "column",  
+		dataPoints: [      
+			{ y: 0.0375 , label: "01/08/2021", color: "#4e73df"},
+			{ y: 0.1017,  label: "01/15/2021", color: "#4e73df"},
+			{ y: 0.1017,  label: "01/22/2021", color:"#4e73df" },
+			{ y: 0.0059,  label: "01/29/2021", color:"#4e73df" },
+			{ y: 0.1274,  label: "02/05/2021", color:"#4e73df" }
+		]
+	}]
+});
+    team2.render();
+    var team3 = new CanvasJS.Chart("team3", {
+	data: [{        
+		type: "column",  
+		dataPoints: [      
+			{ y: 0.1250 , label: "01/08/2021", color: "#4e73df"},
+			{ y: 0.0650,  label: "01/15/2021", color: "#4e73df"},
+			{ y: 0.0904,  label: "01/22/2021", color:"#4e73df" },
+			{ y: 0.1266,  label: "01/29/2021", color:"#4e73df" },
+			{ y: 0.2151,  label: "02/05/2021", color:"#4e73df" }
+		]
+	}]
+});
+    team3.render();
+    var team4 = new CanvasJS.Chart("team4", {
+	data: [{        
+		type: "column",  
+		dataPoints: [      
+			{ y: 0.1667 , label: "01/08/2021", color: "#4e73df"},
+			{ y: 0.1155,  label: "01/15/2021", color: "#4e73df"},
+			{ y: 0.0375,  label: "01/22/2021", color:"#4e73df" },
+			{ y: 0.0631,  label: "01/29/2021", color:"#4e73df" },
+			{ y: 0.1516,  label: "02/05/2021", color:"#4e73df" }
+		]
+	}]
+});
+    team4.render();
+});
