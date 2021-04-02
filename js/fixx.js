@@ -90,10 +90,10 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		type: "column",  
 		dataPoints: [      
 			{ y: 0.1304 , label: "01/08/2021", color: "#4e73df"},
-			{ y: 0.0059,  label: "01/15/2021", color: "#4e73df"},
+			{ y: -0.0059,  label: "01/15/2021", color: "#4e73df"},
 			{ y: 0.0521,  label: "01/22/2021", color:"#4e73df" },
 			{ y: 0.1855,  label: "01/29/2021", color:"#4e73df" },
-			{ y: 0.0083,  label: "02/05/2021", color:"#4e73df" }
+			{ y: -0.0083,  label: "02/05/2021", color:"#4e73df" }
 		]
 	}]
 });
@@ -102,7 +102,7 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	data: [{        
 		type: "column",  
 		dataPoints: [      
-			{ y: 0.0375 , label: "01/08/2021", color: "#4e73df"},
+			{ y: -0.0375 , label: "01/08/2021", color: "#4e73df"},
 			{ y: 0.1017,  label: "01/15/2021", color: "#4e73df"},
 			{ y: 0.1017,  label: "01/22/2021", color:"#4e73df" },
 			{ y: 0.0059,  label: "01/29/2021", color:"#4e73df" },
@@ -130,8 +130,8 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		dataPoints: [      
 			{ y: 0.1667 , label: "01/08/2021", color: "#4e73df"},
 			{ y: 0.1155,  label: "01/15/2021", color: "#4e73df"},
-			{ y: 0.0375,  label: "01/22/2021", color:"#4e73df" },
-			{ y: 0.0631,  label: "01/29/2021", color:"#4e73df" },
+			{ y: -0.0375,  label: "01/22/2021", color:"#4e73df" },
+			{ y: -0.0631,  label: "01/29/2021", color:"#4e73df" },
 			{ y: 0.1516,  label: "02/05/2021", color:"#4e73df" }
 		]
 	}]
