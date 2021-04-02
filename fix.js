@@ -1,7 +1,7 @@
 window.onload = function () {
 	var chart = new CanvasJS.Chart("chartContainer", { 
 		title: {
-			text: "Sentiment Score Overview/Facts and Opinions Over Time"
+			text: "Sentiment Score pinions Over Time"
 		},
         axisY: {
 		title: "<-Facts-Opinions->"
